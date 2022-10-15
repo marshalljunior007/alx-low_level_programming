@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry
  * Return: Always 0
@@ -11,6 +11,7 @@ int main(void)
 	int a;
 
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
 	a = n % 10;
 
